@@ -18,7 +18,10 @@ Execute os comandos abaixo no terminal para instalar o motor do Docker e o Docke
 # Atualizar repositórios e instalar dependências
 sudo apt update
 sudo apt install ca-certificates curl gnupg git -y
+curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
+git clone https://github.com/ludsc/stirling-pdf-docker.git
+cd stirling-pdf-docker
 docker compose up -d
 
 # Adicionar chave GPG oficial do Docker
