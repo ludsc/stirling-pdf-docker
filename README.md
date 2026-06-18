@@ -1,5 +1,5 @@
 # Instalação e Configuração: Stirling-PDF no Linux Mint 22
-
+http://localhost:8080/
 O usuário é admin e a senha é admin1234
 
 Este guia descreve o passo a passo para instalar o Docker, configurar o Stirling-PDF e criar um atalho no sistema para execução simplificada pelo usuário final.
