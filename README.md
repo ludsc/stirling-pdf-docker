@@ -17,7 +17,9 @@ Execute os comandos abaixo no terminal para instalar o motor do Docker e o Docke
 ```bash
 # Atualizar repositórios e instalar dependências
 sudo apt update
-sudo apt install ca-certificates curl gnupg -y
+sudo apt install ca-certificates curl gnupg git -y
+sudo sh get-docker.sh
+docker compose up -d
 
 # Adicionar chave GPG oficial do Docker
 sudo install -m 0755 -d /etc/apt/keyrings
